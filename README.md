@@ -1,3 +1,6 @@
+<h3 align="center">I am not responisble for any actions that you may or may not take. This is built for educational purposes only. I did this for MY free will and I do not want to take responsibility for other peoples actions.
+
+
 <h1 align="center">Hi 👋, I'm Soles</h1>
 <h3 align="center">A passionate frontend developer from Russia, and willing to make a good program.</h3>
 
