@@ -3,8 +3,6 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=xkrustydemonx&label=Profile%20views&color=0e75b6&style=flat" alt="xkrustydemonx" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=xkrustydemonx" alt="xkrustydemonx" /></a> </p>
-
 ![mona-loading-dark](https://user-images.githubusercontent.com/77860299/213896425-633c2687-1940-4a12-8e80-066aebea3972.gif)
 
 
