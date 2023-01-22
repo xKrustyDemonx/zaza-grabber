@@ -5,7 +5,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=xkrustydemonx" alt="xkrustydemonx" /></a> </p>
 
-https://raw.githubusercontent.com/xKrustyDemonx/zazagrab-assets/main/mona-loading-dark.gif
+![mona-loading-dark](https://user-images.githubusercontent.com/77860299/213896425-633c2687-1940-4a12-8e80-066aebea3972.gif)
 
 
 - 🔭 I’m currently working on [ZazaGrabber](https://github.com/xKrustyDemonx/zaza-grabber)
