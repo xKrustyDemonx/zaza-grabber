@@ -948,7 +948,6 @@ GoogleMaps: {self.googlemap}
 
 
 
-
     def ending(self):
         for i in os.listdir(self.dir):
             if i.endswith('.txt'):
