@@ -8,6 +8,7 @@ from json import load
 from urllib.request import urlopen
 from zlib import compress
 
+
 import requests
 from alive_progress import alive_bar
 from colorama import Fore, Style, init
