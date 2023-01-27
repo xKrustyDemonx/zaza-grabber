@@ -1,6 +1,6 @@
 # Security Policy
-I am not responsible for any actions forwarded with this program.This was made for educational use only.
-
+I am not responsible for any actions forwarded with this program. This was made for educational use only.
+Use safely!
 
 ## Supported Versions
 
