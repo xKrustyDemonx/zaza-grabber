@@ -71,8 +71,34 @@ Script to add zaza grabber
 > + More!
 ```
 
+## <a id="changelog"></a>💭 〢 ChangeLog
 
-<h3 align="center">I am not responisble for any actions that you may or may not take. This is built for educational purposes only. I did this for MY free will and I do not want to take responsibility for other peoples actions.
+```diff
+v2.2.5: 2022-14-11
++ Detect New Discord Active Developer Badge
+v2.3: 2023-10-01
+- 0 detection source code by virustotal
+- Builder error patched
++ New code optimisation
++ New features can replace all crypto wallet by your address
+v2.3.5: 2023-20-01
+- Detect Patched
+- Builder .exe deleted patched
+v2.3.8: 2023-21-01
+- Text Encoder Bug Fixed
++ New Cookies Format (Can be used by Cookie Quick Manager extension)
+v2.3.9: 2023-21-01
++ AntiDebug More Powerfull (check ip)
+```
+### Authors
+- [@Soles](https://github.com/xKrustyDemonx)
+
+### <a id="terms"></a>💼 〢 Terms Of Usage
+
+- [x] Educational purpose only
+- [x] Reselling is forbidden
+- [x] You can use the source code if you keep credits (in embed + in markdown), it has to be open-source
+- [x] We are NOT responsible of anything you do with our software (if its illegal)
 
 
   
