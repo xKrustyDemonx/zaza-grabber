@@ -7,6 +7,8 @@
 
 <p align="left"> <img src="https://camo.githubusercontent.com/bb50b8c8d02bcd944e8403db53f263ef1005e1b1e532e272349772d7cbbd4b99/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f69616e7a68616f30352f7465787473686f74" /> </p>
 
+<p align="left"> <img src="https://github.com/psf/black" /> </p>
+
 ![mona-loading-dark](https://user-images.githubusercontent.com/77860299/213896425-633c2687-1940-4a12-8e80-066aebea3972.gif)
 
 
