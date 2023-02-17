@@ -22,7 +22,7 @@ Script to add zaza grabber
 - Python module `pillow`
 - Python module `alive-progress`
 - Python module `winregistry`
-- Windows OS (7+)
+- Windows OS (7+) (22H2 ISNOT SUPPORTED!)
 
 ## <a id="setup"></a> 📁 〢 Setting up ZazaGrab
 
